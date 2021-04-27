@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <link href="/src/favicon.svg" rel="icon" type="image/svg+xml"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Vite + Lit-Element App</title>
+    <script src="/src/index.js" type="module"></script>
+</head>
+
+<body class="bg-blue-300 h-screen flex flex-col justify-center items-center">
+<tw-modal-invoker target="#example-modal">
+    <button class="p-4 bg-yellow-400 rounded-lg">Show modal</button>
+</tw-modal-invoker>
+
+<tw-modal id="example-modal">
+    Hello from the light DOM, I'm a <b class="text-green-500">modal</b> content!
+</tw-modal>
+
+<tw-emoji-randomizer class="mt-10"></tw-emoji-randomizer>
+</body>
+
+</html>

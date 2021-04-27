@@ -1,0 +1,26 @@
+{
+  "name": "litproject",
+  "version": "0.0.0",
+  "main": "dist/my-vite-element.es.js",
+  "exports": {
+    ".": "./dist/my-vite-element.es.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "lit": "^2.0.0-rc.1",
+    "lit-element": "^2.4.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.12",
+    "prettier": "^2.2.1",
+    "tailwindcss": "^2.1.1",
+    "vite": "^2.1.5"
+  }
+}
